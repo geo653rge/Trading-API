@@ -1,19 +1,20 @@
 import express from "express";
+import { Routes } from "./routes";
 
 const app = express() ;
 
+Routes(app);
 
+async function Main() {
 
-const Main = async () => {
+    try {
+    }
 
-try {
+    catch (error) {
+
+        console.log(error);
+    }
 }
-
-catch (error) {
-
-    console.log(error);
-}
-};
 
 Main();
 app.listen(8000, () => {
