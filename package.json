@@ -1,0 +1,11 @@
+{
+  "name": "Kimanibot",
+  "version": "1.0.0",
+  "description": "Connecting to trading exchanges ",
+  "main": "index.js",
+  "author": "KimaniG_Wanyoike",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
